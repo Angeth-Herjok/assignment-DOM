@@ -3,7 +3,10 @@ document.body.style.backgroundColor="silver"
 
 document.getElementById('title').style.color='green'
 
-let h3Tags=document.getElementById
+let h3Tags=document.getElementsByTagName('h3');
+for(let i=0;i<h3Tags.length;i++){
+    h3Tags[i].style.textTransform="uppercase"
+}
 
 
 
