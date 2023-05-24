@@ -15,7 +15,7 @@ li.innerHTML='Banana';
 document.getElementById('fruList').appendChild(li)
 
 
-let li=document.createElement('li')
-li.innerHTML='Spinach';
-document.getElementById('vegList').appendChild(li)
 
+const newVegList = document.createElement("li");
+newVegList.textContent = "Spinach";
+vegList.appendChild(newVegList);
